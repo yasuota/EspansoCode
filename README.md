@@ -1,4 +1,4 @@
-# espanso
+# My Espanso code
 
 ## Sample
 
