@@ -1,11 +1,8 @@
 # espanso
 
-## Overview 
-
+## Sample
 
 <img src="doc/curl.gif" width="900">
-
-### Setup 
 
 <details>
 
@@ -33,3 +30,23 @@ matches:
         layout: "Type in Domain [[name]] \nType in IP [[ip]]"
 ```
 </details>
+
+
+### Setup 
+
+1. Install using Homebrew
+See below for details.
+https://espanso.org/docs/install/mac/
+
+2. Git clone
+```
+git clone https://github.com/fastly/espanso-conf.git
+```
+
+3. Copy this github Config to your folder
+
+```
+cp -R ./espanso-conf/espanso/match/* $HOME/Library/Application\ Support/espanso/match/
+```
+See below for details.
+https://espanso.org/docs/configuration/basics/#structure 
