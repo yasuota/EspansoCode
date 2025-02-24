@@ -1,2 +1,8 @@
 # espanso
-![Demo](https://github.com/yasuota/espanso/blob/main/doc/curl.gif)
+
+## Overview 
+
+
+<img src="doc/curl.gif" width="900">
+
+### Setup 
