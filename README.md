@@ -31,6 +31,67 @@ matches:
 ```
 </details>
 
+</details>
+
+### POP Search
+<img src="doc/pop_search.gif" width="900">
+
+After copying the target varnishlog that will be headers to the backend, typing `:varnishlogto` automatically outputs it in the format of a curl command.
+This is executed by varnishlogto.py in the scripts folder.
+
+<details>
+
+```
+  - trigger: ":pop"
+    replace: "{{output}}"
+    label: "POP: ADL | City: Adelaide | Country: Australia"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=-34.9285,138.6007" | pbcopy'
+
+  - trigger: ":pop"
+    replace: "{{output}}"
+    label: "POP: AMS | City: Amsterdam | Country: Netherlands"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=52.308613,4.763889" | pbcopy'
+```
+
+
+</details>
+
+
+### POP Search (Metro)
+<img src="doc/POP_search_metro.gif" width="900">
+
+<details>
+
+```
+  - trigger: ":pop"
+    label: "POP: FRA | City: Frankfurt | Country: Germany"
+    replace: "{{output}}"
+    vars:
+    - name: "form1"
+      type: form
+      params:
+        layout: "Metro : EDDF823, ETOU822: [[sample]]"
+        fields:
+          sample:
+            type: choice
+            values:
+              - TAP SUBMIT
+    - name: output
+      type: shell
+      params:
+       cmd: 'echo "https://www.google.com/maps/search/?api=1&query=50.026421,8.543125" | pbcopy'
+```
+
+</details>
+
 
 ### Setup 
 
