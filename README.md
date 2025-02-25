@@ -36,8 +36,8 @@ matches:
 ### POP Search
 <img src="doc/pop_search.gif" width="900">
 
-After copying the target varnishlog that will be headers to the backend, typing `:varnishlogto` automatically outputs it in the format of a curl command.
-This is executed by varnishlogto.py in the scripts folder.
+You can easily check Fastly's POP name, country, and area by typing `:pop` anywhere.
+https://www.fastly.com/documentation/guides/concepts/pop/
 
 <details>
 
