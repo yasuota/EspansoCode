@@ -36,7 +36,8 @@ matches:
 ### POP Search
 <img src="doc/pop_search.gif" width="900">
 
-You can easily check Fastly's POP name, country, and area by typing `:pop` anywhere.
+You can easily check Fastly's POP name, country, and area by typing `:pop` anywhere. 
+And its geolocation data is copied to your clipboard, so you can check the location on Google Maps.
 https://www.fastly.com/documentation/guides/concepts/pop/
 
 <details>
