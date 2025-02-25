@@ -28,7 +28,7 @@ First, copy a valid IP address, then type :ip to display its information. And it
 </details>
 
 
-## Choose a dynamic option
+## Type a dynamic variable
 
 <img src="doc/curl.gif" width="900">
 
