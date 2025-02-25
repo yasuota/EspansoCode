@@ -1,10 +1,40 @@
 # My Espanso code
 
-## Sample
+## Basic command 
+
+<img src="doc/linux.gif" width="900">
+
+<details>
+
+First, copy a valid IP address, then type :ip to display its information. And it is copied to your clipboard.
+
+<summary>Sample Code</summary>
+
+```
+  - trigger: ":ip"
+    replace: "{{output}}"
+    label: "ip"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: '/usr/bin/curl "ipinfo.io/$(pbpaste)" && whois -h bgp.tools $(pbpaste)'
+      - name: clipboard_contents
+        type: clipboard
+
+```
+</details>
+
+</details>
+
+
+## Choose a dynamic option
 
 <img src="doc/curl.gif" width="900">
 
 <details>
+
+When you type :curl, options to select either Performance option or Normal appears. After selecting one, you can enter the domain to access. The curl command is displayed directly at the cursor. 
 
 <summary>Sample Code</summary>
 
