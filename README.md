@@ -107,35 +107,6 @@ https://www.fastly.com/documentation/guides/concepts/pop/
 
 </details>
 
-
-### POP Search (Metro)
-<img src="doc/POP_search_metro.gif" width="900">
-
-<details>
-
-```
-  - trigger: ":pop"
-    label: "POP: FRA | City: Frankfurt | Country: Germany"
-    replace: "{{output}}"
-    vars:
-    - name: "form1"
-      type: form
-      params:
-        layout: "Metro : EDDF823, ETOU822: [[sample]]"
-        fields:
-          sample:
-            type: choice
-            values:
-              - TAP SUBMIT
-    - name: output
-      type: shell
-      params:
-       cmd: 'echo "https://www.google.com/maps/search/?api=1&query=50.026421,8.543125" | pbcopy'
-```
-
-</details>
-
-
 ### Setup 
 
 1. Install using Homebrew
