@@ -2,14 +2,12 @@
 
 ## Basic command 
 
-As you can see, first, copy a valid IP address, then type `:ip`.
+First, copy a valid IP address, then type `:ip`.
+Espanso runs the Linux command in the background and then it outputs the result anywhere. Also, it is copied to your clipboard.
 
 <img src="doc/linux.gif" width="900">
 
 <details>
-
-First, copy a valid IP address, then type `:ip`.
-Espanso runs the Linux command in the background and then it outputs the result anywhere. Also, it is copied to your clipboard.
 
 <summary>Sample Code</summary>
 
@@ -33,12 +31,12 @@ Espanso runs the Linux command in the background and then it outputs the result 
 
 ## Type a dynamic variable
 
+When you type `:curl`, you will see options to select either the Performance option, resolver option or a POST request.
+After selecting one, you can enter the domain to access. The generated cURL command is then displayed directly at the cursor.
+
 <img src="doc/curl.gif" width="900">
 
 <details>
-
-When you type `:curl`, you will see options to select either the Performance option, resolver option or a POST request.
-After selecting one, you can enter the domain to access. The generated cURL command is then displayed directly at the cursor.
 
 <summary>Sample Code</summary>
 
