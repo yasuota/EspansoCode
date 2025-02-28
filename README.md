@@ -8,7 +8,8 @@ As you can see, first, copy a valid IP address, then type `:ip`.
 
 <details>
 
-First, copy a valid IP address, then type :ip. Espanso runs the Linux command in the background and then it outputs the result anywhere. Also, it is copied to your clipboard.
+First, copy a valid IP address, then type `:ip`.
+Espanso runs the Linux command in the background and then it outputs the result anywhere. Also, it is copied to your clipboard.
 
 <summary>Sample Code</summary>
 
@@ -36,7 +37,7 @@ First, copy a valid IP address, then type :ip. Espanso runs the Linux command in
 
 <details>
 
-When you type :curl, you will see options to select either the Performance option, resolver option or a POST request.
+When you type `:curl`, you will see options to select either the Performance option, resolver option or a POST request.
 After selecting one, you can enter the domain to access. The generated cURL command is then displayed directly at the cursor.
 
 <summary>Sample Code</summary>
