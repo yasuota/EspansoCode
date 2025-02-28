@@ -84,6 +84,8 @@ https://www.fastly.com/documentation/guides/concepts/pop/
 
 <details>
 
+<summary>Sample Code</summary>
+
 ```
   - trigger: ":pop"
     replace: "{{output}}"
@@ -103,7 +105,6 @@ https://www.fastly.com/documentation/guides/concepts/pop/
         params:
           cmd: 'echo "https://www.google.com/maps/search/?api=1&query=52.308613,4.763889" | pbcopy'
 ```
-
 
 </details>
 
