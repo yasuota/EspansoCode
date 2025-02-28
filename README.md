@@ -58,6 +58,15 @@ matches:
       type: form
       params:
         layout: "Type in Domain [[name]] \nType in IP [[ip]]"
+
+  - trigger: ":curl"
+    replace: "curl -svo /dev/nul https://{{form1.name}} -d '{{form1.post}}' -X POST"
+    label: "curl performance with POST"
+    vars:
+    - name: form1
+      type: form
+      params:
+        layout: "Type in Domain [[name]] \nType in Data [[post]]"
 ```
 </details>
 
