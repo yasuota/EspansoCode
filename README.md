@@ -8,8 +8,7 @@ As you can see, first, copy a valid IP address, then type `:ip`.
 
 <details>
 
-First, copy a valid IP address, then type :ip.
-Espanso runs the Linux command in the background and then it outputs the result anywhere. Also, it is copied to your clipboard.
+First, copy a valid IP address, then type :ip. Espanso runs the Linux command in the background and then it outputs the result anywhere. Also, it is copied to your clipboard.
 
 <summary>Sample Code</summary>
 
