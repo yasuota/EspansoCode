@@ -2,11 +2,14 @@
 
 ## Basic command 
 
+As you can see, first, copy a valid IP address, then type `:ip`.
+
 <img src="doc/linux.gif" width="900">
 
 <details>
 
-First, copy a valid IP address, then type :ip to display its information. And it is copied to your clipboard.
+First, copy a valid IP address, then type :ip.
+Espanso runs the Linux command in the background and then it outputs the result anywhere. Also, it is copied to your clipboard.
 
 <summary>Sample Code</summary>
 
@@ -34,7 +37,8 @@ First, copy a valid IP address, then type :ip to display its information. And it
 
 <details>
 
-When you type :curl, options to select either Performance option or Normal appears. After selecting one, you can enter the domain to access. The curl command is displayed directly at the cursor. 
+When you type :curl, you will see options to select either the Performance option, resolver option or a POST request.
+After selecting one, you can enter the domain to access. The generated cURL command is then displayed directly at the cursor.
 
 <summary>Sample Code</summary>
 
@@ -75,8 +79,8 @@ matches:
 ### POP Search
 <img src="doc/pop_search.gif" width="900">
 
-You can easily check Fastly's POP name, country, and area by typing `:pop` anywhere. 
-And its geolocation data is copied to your clipboard, so you can check the location on Google Maps.
+By typing `:pop` anywhere, you can easily check Fastly's POP name, country, and region. Its geolocation data is automatically copied to your clipboard, allowing you to check the location on Google Maps. This eliminates the need to remember a large number of POP names and locations.
+
 https://www.fastly.com/documentation/guides/concepts/pop/
 
 <details>
