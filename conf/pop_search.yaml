@@ -19,12 +19,39 @@ matches:
 
   - trigger: ":pop"
     replace: "{{output}}"
+    label: "POP: RTM (Metro:EHRD229) | City: Amsterdam | Country: Netherlands"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=52.308613,4.763889" | pbcopy'
+
+  - trigger: ":pop"
+    replace: "{{output}}"
     label: "POP: DCA | City: Ashburn | Country: America"
     vars:
       - name: output
         type: shell
         params:
           cmd: 'echo "https://www.google.com/maps/search/?api=1&query=38.944533,-77.455811" | pbcopy'
+
+  - trigger: ":pop"
+    label: "POP: IAD (Metro:KCGS720, KIAD700, KJYO710)| City: Ashburn | Country: America"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=43.677223,-79.630556" | pbcopy'
+
+  - trigger: ":pop"
+    label: "POP: PDK (Metrl:KATL184, KFTY213, KPDK178) | City: Atlanta | Country: Ashburn"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=33.876819,-84.302921" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -117,6 +144,15 @@ matches:
           cmd: 'echo "https://www.google.com/maps/search/?api=1&query=12.9941,80.1709" | pbcopy'
 
   - trigger: ":pop"
+    label: "POP: CHI (Metro:KIGQ800, KLOT810) | City: Chicago | Country: America"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=41.863,-87.641" | pbcopy'
+  
+  - trigger: ":pop"
     replace: "{{output}}"
     label: "POP: CHC95 | City: Christchurch | Country: New Zealand"
     vars:
@@ -171,6 +207,15 @@ matches:
           cmd: 'echo "https://www.google.com/maps/search/?api=1&query=32.896828,-97.037997" | pbcopy'
 
   - trigger: ":pop"
+    label: "POP: DFW (KDAL212, KDFW821) | City: Dallas | Country: America"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=32.896828,-97.037997" | pbcopy'
+
+  - trigger: ":pop"
     replace: "{{output}}"
     label: "POP: DEL217 | City: Delhi | Country: India"
     vars:
@@ -199,7 +244,7 @@ matches:
 
   - trigger: ":pop"
     replace: "{{output}}"
-    label: "POP: DXB147 | City: Dubai | Country: UAE"
+    label: "POP: DXB147 | City: Dubai | Country: the United Arab Emirates"
     vars:
       - name: output
         type: shell
@@ -225,6 +270,15 @@ matches:
           cmd: 'echo "https://www.google.com/maps/search/?api=1&query=-3.735,-38.458" | pbcopy'
 
   - trigger: ":pop"
+    label: "POP: FRA (EDDF823, ETOU822) | City: Frankfurt | Country: Germany"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=50.026421,8.543125" | pbcopy'
+
+  - trigger: ":pop"
     replace: "{{output}}"
     label: "POP: WIE | City: Frankfurt | Country: Germany"
     vars:
@@ -235,7 +289,7 @@ matches:
 
   - trigger: ":pop"
     replace: "{{output}}"
-    label: "POP: FJR99 | City: Fujairah Al Mahta | Country: UAE"
+    label: "POP: FJR99 | City: Fujairah Al Mahta | Country: the United Arab Emirates"
     vars:
       - name: output
         type: shell
@@ -396,6 +450,15 @@ matches:
           cmd: 'echo "https://www.google.com/maps/search/?api=1&query=34.198312,-118.357404" | pbcopy'
 
   - trigger: ":pop"
+    label: "POP: HHR (Metro:KHHR206) | City: Los Angeles | Country: America"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=33.942536,-118.408075" | pbcopy'
+
+  - trigger: ":pop"
     label: "POP: LAX (Metro:KWHP194) | City: Los Angeles | Country: America"
     replace: "{{output}}"
     vars:
@@ -412,6 +475,15 @@ matches:
         type: shell
         params:
           cmd: 'echo "https://www.google.com/maps/search/?api=1&query=40.439323,-3.621211" | pbcopy'
+
+  - trigger: ":pop"
+    replace: "{{output}}"
+    label: "POP: TOJ | City: Madrid | Country: Spain"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=40.433899,-3.62408" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -567,15 +639,6 @@ matches:
           cmd: 'echo "https://www.google.com/maps/search/?api=1&query=59.922,10.809" | pbcopy'
 
   - trigger: ":pop"
-    replace: "{{output}}"
-    label: "POP: PMO228 | City: Palermo | Country: Italy"
-    vars:
-      - name: output
-        type: shell
-        params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=38.1607109,13.3157489" | pbcopy'
-
-  - trigger: ":pop"
     label: "POP: PAO (Metro:KPAO177) | City: Palo Alto | Country: America"
     replace: "{{output}}"
     vars:
@@ -666,6 +729,24 @@ matches:
           cmd: 'echo "https://www.google.com/maps/search/?api=1&query=-33.3936,-70.7935" | pbcopy'
 
   - trigger: ":pop"
+    label: "POP: GRU (Metrl:SBGR193, SBSP209) | City: Sao Paulo | Country: Brazil"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=-23.432075,-46.469511" | pbcopy'
+
+  - trigger: ":pop"
+    label: "POP: BFI (Metrl:KBFI740, KRNT730) | City: Seattle | Country: America"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=47.449,-122.309306" | pbcopy'
+
+  - trigger: ":pop"
     replace: "{{output}}"
     label: "POP: ICN145 | City: Seoul | Country: South Korea"
     vars:
@@ -677,6 +758,15 @@ matches:
   - trigger: ":pop"
     replace: "{{output}}"
     label: "POP: QPG12 | City: Singapore | Country: Singapore"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=1.350189,103.994433" | pbcopy'
+
+  - trigger: ":pop"
+    replace: "{{output}}"
+    label: "POP: SIN | City: Singapore | Country: Singapore"
     vars:
       - name: output
         type: shell
@@ -721,12 +811,12 @@ matches:
 
   - trigger: ":pop"
     replace: "{{output}}"
-    label: "POP: HND187 | City: Tokyo | Country: Japan"
+    label: "POP: WSI101 | City: Sydney | Country: Australia"
     vars:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=35.622281,139.748426" | pbcopy'
+          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=-33.919,151.189" | pbcopy'
 
   - trigger: ":pop"
     label: "POP: NRT (Metrl:RJTF770) | City: Tokyo | Country: Japan"
@@ -782,65 +872,3 @@ matches:
         params:
           cmd: 'echo "https://www.google.com/maps/search/?api=1&query=-41.327221,174.805278" | pbcopy'
   
-  - trigger: ":pop"
-    label: "POP: IAD (Metro:KCGS720, KIAD700, KJYO710)| City: Ashburn | Country: America"
-    replace: "{{output}}"
-    vars:
-      - name: output
-        type: shell
-        params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=43.677223,-79.630556" | pbcopy'
-  
-  - trigger: ":pop"
-    label: "POP: PDK (Metrl:KATL184, KFTY213, KPDK178) | City: Atlanta | Country: Ashburn"
-    replace: "{{output}}"
-    vars:
-      - name: output
-        type: shell
-        params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=33.876819,-84.302921" | pbcopy'
-  
-  - trigger: ":pop"
-    label: "POP: CHI (Metro:KIGQ800, KLOT810) | City: Chicago | Country: America"
-    replace: "{{output}}"
-    vars:
-      - name: output
-        type: shell
-        params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=41.863,-87.641" | pbcopy'
-  
-  - trigger: ":pop"
-    label: "POP: DFW (KDAL212, KDFW821) | City: Dallas | Country: America"
-    replace: "{{output}}"
-    vars:
-      - name: output
-        type: shell
-        params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=32.896828,-97.037997" | pbcopy'
-
-  - trigger: ":pop"
-    label: "POP: FRA (EDDF823, ETOU822) | City: Frankfurt | Country: Germany"
-    replace: "{{output}}"
-    vars:
-      - name: output
-        type: shell
-        params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=50.026421,8.543125" | pbcopy'
-
-  - trigger: ":pop"
-    label: "POP: GRU (Metrl:SBGR193, SBSP209) | City: Sao Paulo | Country: Brazil"
-    replace: "{{output}}"
-    vars:
-      - name: output
-        type: shell
-        params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=-23.432075,-46.469511" | pbcopy'
-
-  - trigger: ":pop"
-    label: "POP: BFI (Metrl:KBFI740, KRNT730) | City: Seattle | Country: America"
-    replace: "{{output}}"
-    vars:
-      - name: output
-        type: shell
-        params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=47.449,-122.309306" | pbcopy'
