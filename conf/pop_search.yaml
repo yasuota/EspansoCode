@@ -478,7 +478,7 @@ matches:
 
   - trigger: ":pop"
     replace: "{{output}}"
-    label: "POP: TOJ | City: Madrid | Country: Spain"
+    label: "POP: TOJ (METRO:LETO235) | City: Madrid | Country: Spain"
     vars:
       - name: output
         type: shell
@@ -613,7 +613,7 @@ matches:
 
   - trigger: ":pop"
     replace: "{{output}}"
-    label: "POP: EWR181 | City: Newark | Country: America"
+    label: "POP: EWR181 (Metro:KEWR174) | City: Newark | Country: America"
     vars:
       - name: output
         type: shell
@@ -648,7 +648,7 @@ matches:
           cmd: 'echo "https://www.google.com/maps/search/?api=1&query=37.454965,-122.110783" | pbcopy'
 
   - trigger: ":pop"
-    label: "POP: PAR (Metro:LFPG196) | City: Paris | Country: France"
+    label: "POP: PAR (Metro:LFPB196,LFPG196) | City: Paris | Country: France"
     replace: "{{output}}"
     vars:
       - name: output
@@ -766,7 +766,7 @@ matches:
 
   - trigger: ":pop"
     replace: "{{output}}"
-    label: "POP: SIN | City: Singapore | Country: Singapore"
+    label: "POP: SIN (METRO:WSSS183) | City: Singapore | Country: Singapore"
     vars:
       - name: output
         type: shell
@@ -811,7 +811,7 @@ matches:
 
   - trigger: ":pop"
     replace: "{{output}}"
-    label: "POP: WSI101 | City: Sydney | Country: Australia"
+    label: "POP: WSI101 (METRO:YSBK106) | City: Sydney | Country: Australia"
     vars:
       - name: output
         type: shell
@@ -871,4 +871,3 @@ matches:
         type: shell
         params:
           cmd: 'echo "https://www.google.com/maps/search/?api=1&query=-41.327221,174.805278" | pbcopy'
-  
