@@ -6,7 +6,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=-34.9285,138.6007" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@-34.92800904,138.59912656,-282.12448416a,117272.70819066d,34.9644758y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -15,7 +15,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=52.308613,4.763889" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@52.30861299,4.76388902,13.73518389a,3821.76443155d,34.99999996y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -24,7 +24,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=52.308613,4.763889" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@52.308613,4.763889,14.53631085a,3800d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -33,7 +33,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=38.944533,-77.455811" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@38.944533,-77.455811,87.52599925a,3800d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     label: "POP: IAD (Metro:KCGS720, KIAD700, KJYO710)| City: Ashburn | Country: America"
@@ -42,7 +42,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=43.677223,-79.630556" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@38.944533,-77.455811,87.52599925a,3800d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     label: "POP: PDK (Metrl:KATL184, KFTY213, KPDK178) | City: Atlanta | Country: Ashburn"
@@ -51,7 +51,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=33.876819,-84.302921" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@33.876819,-84.302921,301.47543302a,3800.38457633d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -60,7 +60,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=-37.008056,174.791667" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@-37.008056,174.791667,-419.99999707a,3800.23047815d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -69,16 +69,16 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=13.756,100.501" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@13.756,100.501,4.13298181a,3800d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
-    label: "POP: BOG226 | City: Bogota | Country: Colombia"
+    label: "POP: BOG226 (METRO:SKBO234)| City: Bogota | Country: Colombia"
     vars:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=4.711,-74.072" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@4.711,-74.072,2554.73469606a,3800d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -87,7 +87,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=42.364347,-71.005181" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@42.364347,-71.005181,4.13843399a,3800.43182701d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -96,7 +96,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=-27.384167,153.1175" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@-27.384167,153.1175,-5.75209047a,3800.96008231d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -105,7 +105,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=50.871,4.476" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@50.871,4.476,65.51890924a,3801.06026486d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -114,7 +114,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=-34.815,-58.5348" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@-34.815,-58.5348,19.59202575a,3801.16095382d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -123,7 +123,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=51.047,-114.08" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@51.047,-114.08,1048.44330469a,3800.42128796d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -132,7 +132,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=-33.97,18.464" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@-33.96999996,18.46399993,28.55852107a,3937.42560804d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -141,7 +141,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=12.9941,80.1709" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@12.9941,80.1709,26.09767002a,3800.36708477d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     label: "POP: CHI (Metro:KIGQ800, KLOT810) | City: Chicago | Country: America"
@@ -150,7 +150,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=41.863,-87.641" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@41.863,-87.641,179.63034099a,3800d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
   
   - trigger: ":pop"
     replace: "{{output}}"
@@ -159,7 +159,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=-43.532,172.636" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@-43.532,172.636,5.99311359a,3800d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -168,7 +168,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=40.116,-83.002" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@40.116,-83.002,280.10945246a,3800.00000367d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -177,7 +177,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=40.116,-83.002" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@40.116,-83.002,280.32621232a,3800d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -186,7 +186,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=55.728081,12.37752" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@55.728081,12.37752,30.58294062a,3800d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -195,7 +195,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=-25.4809,-49.3044" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@-25.4809,-49.3044,920.07467802a,3800d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -204,16 +204,16 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=32.896828,-97.037997" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@32.896828,-97.037997,172.97791282a,3800.00060056d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
-    label: "POP: DFW (KDAL212, KDFW821) | City: Dallas | Country: America"
+    label: "POP: DFW (KDAL212, KDFW821,KTKI862) | City: Dallas | Country: America"
     replace: "{{output}}"
     vars:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=32.896828,-97.037997" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@32.896828,-97.037997,172.97791282a,3800.00060056d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -222,16 +222,16 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=28.506912,77.378557" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@28.506912,77.378557,217.48954157a,3800d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
-    label: "POP: DEN82 | City: Denver | Country: America"
+    label: "POP: DEN82 (METRO:KDEN130) | City: Denver | Country: America"
     vars:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=39.861656,-104.673178" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@39.861656,-104.673178,1634.74755468a,3800.37205588d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -240,7 +240,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=42.448,-83.263" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@42.448,-83.263,55.89862188a,3800.37102554d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -249,7 +249,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=25.032,55.19" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@25.032,55.19,8.47139341a,3800d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -258,7 +258,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=53.35,-6.26" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@53.35,-6.26,-20.01481113a,3800.25813655d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -267,7 +267,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=-3.735,-38.458" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@-3.735,-38.458,10.31988162a,3800.00000064d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     label: "POP: FRA (EDDF823, ETOU822) | City: Frankfurt | Country: Germany"
@@ -276,7 +276,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=50.026421,8.543125" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@50.026421,8.543125,96.1482143a,3800d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -285,7 +285,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=50.11975,8.738472" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@50.11974994,8.73847188,95.43869916a,3800.31055025d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -294,7 +294,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=25.112225,56.323964" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@25.112225,56.323964,32.06023808a,3800.03180185d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -303,7 +303,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=29.6516,-82.3248" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@29.6516,-82.3248,-419.99999906a,3800.11554524d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -312,7 +312,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=5.573,-0.203" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@5.573,-0.203,14.67768398a,3800.0077714d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -321,7 +321,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=60.1699,24.9384" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@60.1699,24.9384,7.3077427a,3800.39172346d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -330,7 +330,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=22.308919,113.914603" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@22.308919,113.914603,2.08151358a,3800.53946715d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -339,7 +339,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=21.364,-157.869" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@21.364,-157.869,-419.99999791a,3800.22887079d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -348,7 +348,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=29.99022,-95.336783" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@29.99022,-95.336783,20.31372654a,3800.00000014d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -357,7 +357,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=17.442,78.378" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@17.442,78.378,611.52973568a,3800.00004741d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -366,7 +366,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=-26.13778,28.19756" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@-26.13778,28.19756,1694.45651974a,3800.76832999d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -375,7 +375,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=39.101,-94.581" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@39.101,-94.581,272.28593778a,3800.00000044d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -384,7 +384,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=22.588,88.393" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@22.588,88.393,30.86518971a,3800d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -393,7 +393,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=3.149,101.706" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@3.149,101.706,106.07246735a,3800.05778639d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -402,7 +402,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=-12.088902,-76.973405" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@-12.088902,-76.973405,193.36491494a,3800.00000054d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -411,16 +411,16 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=38.788,-9.123" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@38.788,-9.123,82.64918387a,3800d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
-    label: "POP: LCY (Metro:EGLC860) | City: London | Country: UK"
+    label: "POP: LCY (Metro:EGLC860,EGML863) | City: London | Country: UK"
     replace: "{{output}}"
     vars:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=51.505278,0.055278" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@51.505278,0.055278,4.11264409a,3800.00015261d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     label: "POP: LHR (Metro:EGLL198) | City: London | Country: UK"
@@ -429,7 +429,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=51.4775,-0.461389" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@51.4775,-0.46138893,18.3512043a,3800.30694767d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -438,7 +438,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=51.499,-0.011" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@51.499,-0.01100002,3.79478852a,3800.07417867d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     label: "POP: BUR (Metro:kbur820) | City: Los Angeles | Country: America"
@@ -447,7 +447,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=34.198312,-118.357404" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@34.198312,-118.357404,214.75138608a,3800d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     label: "POP: HHR (Metro:KHHR206) | City: Los Angeles | Country: America"
@@ -456,7 +456,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=33.942536,-118.408075" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@33.94253601,-118.408075,37.25575108a,3800.06151629d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     label: "POP: LAX (Metro:KWHP194) | City: Los Angeles | Country: America"
@@ -465,7 +465,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=33.942536,-118.408075" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@33.94253601,-118.408075,37.25575108a,3800.06151629d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -474,7 +474,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=40.439323,-3.621211" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@40.439323,-3.621211,653.39519239a,3800d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -483,7 +483,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=40.433899,-3.62408" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@40.4345655,-3.62372746,662.5926157a,3800d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -492,7 +492,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=53.4808,-2.2426" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@53.4808,-2.2426,703.89528899a,3800.00634378d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -501,7 +501,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=14.566,121.022" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@14.566,121.022,9.85450712a,3801.15187074d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -510,7 +510,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=43.311,5.373" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@43.311,5.373,9.62010823a,3800.00002012d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -519,7 +519,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=-37.673333,144.843333" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@-37.673333,144.843333,112.90591146a,3800.00095582d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     label: "POP: MIA (Metro:KMIA176) | City: Miami | Country: America"
@@ -528,7 +528,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=25.79325,-80.290556" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@25.79325,-80.290556,2.90236839a,3800.00015188d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -537,7 +537,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=45.47,9.036" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@45.47,9.036,131.50420387a,3800.54433986d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -546,7 +546,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=45.4642,9.19" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@45.46420001,9.18999982,119.17517588a,3800.25896692d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -555,7 +555,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=44.971401,-93.254501" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@44.971401,-93.254501,254.97644866a,3800d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -564,7 +564,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=44.971401,-93.254501" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@44.971401,-93.254501,254.97644866a,3800d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -573,16 +573,16 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=45.497497,-73.570959" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@45.497497,-73.570959,34.77011718a,3800d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
-    label: "POP: BOM47 | City: Mumbai | Country: India"
+    label: "POP: BOM47 (METRO:VANM721) | City: Mumbai | Country: India"
     vars:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=18.975,72.825833" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@18.975,72.825833,25.58185528a,3800.00002331d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -591,7 +591,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=48.143,11.555" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@48.143,11.555,516.60921932a,3800.05250483d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -600,7 +600,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=40.639751,-73.778925" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@40.639751,-73.778925,1.04798572a,3800d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     label: "POP: NYC (Metro:KTEB189) | City: New York City | Country: America"
@@ -609,7 +609,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=40.778,-74.073" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@40.77799999,-74.07299998,2.05952064a,3800.08905363d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -618,7 +618,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=40.736844,-74.173402" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@40.73684405,-74.17340187,8.92349024a,3800.17386387d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -627,7 +627,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=34.785528,135.438222" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@34.785528,135.438222,12.78998694a,3800.0023671d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -636,7 +636,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=59.922,10.809" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@59.922,10.809,100.99673699a,3800.39482595d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     label: "POP: PAO (Metro:KPAO177) | City: Palo Alto | Country: America"
@@ -645,7 +645,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=37.454965,-122.110783" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@37.454965,-122.110783,2.28086861a,3800.00014747d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     label: "POP: PAR (Metro:LFPB196,LFPG196) | City: Paris | Country: France"
@@ -654,7 +654,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=48.856654,2.38532" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@48.856654,2.38532,43.6137227a,3800.01268987d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -663,7 +663,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=-31.940278,115.966944" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@-31.940278,115.966944,18.20427251a,3800d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -672,7 +672,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=33.396,-111.97" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@33.396,-111.97,352.58752972a,3800.04299704d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -681,7 +681,26 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=45.552,-122.914" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@45.552,-122.914,65.71624608a,3800d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
+
+  - trigger: ":pop"
+    replace: "{{output}}"
+    label: "POP: PNQ424 | City: Pune | Country: India"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: 'echo "https://earth.google.com/web/@45.552,-122.914,65.71624608a,3800d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
+
+
+  - trigger: ":pop"
+    replace: "{{output}}"
+    label: "POP: QRO (MMQT107) | City: Queretaro | Country: Mexico"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: 'echo "https://earth.google.com/web/@20.566,-100.258,1970.55228839a,3800d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -690,7 +709,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=-22.81341,-43.249423" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@-22.81341,-43.249423,7.22917384a,3800.5011956d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -699,7 +718,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=41.89891,12.51206" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@41.89891,12.51206,48.34330106a,3800.48255235d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -708,7 +727,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=37.3626,-121.929022" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@37.3626,-121.929022,13.4107643a,3800.13459005d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -717,7 +736,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=37.242,-121.782" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@37.24200002,-121.78200003,64.20832953a,3800.09788492d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -726,7 +745,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=-33.3936,-70.7935" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@-33.3936,-70.7935,462.72927505a,3800.13287361d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     label: "POP: GRU (Metrl:SBGR193, SBSP209) | City: Sao Paulo | Country: Brazil"
@@ -735,7 +754,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=-23.432075,-46.469511" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@-23.432075,-46.469511,743.89145203a,3800.57325696d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     label: "POP: BFI (Metrl:KBFI740, KRNT730) | City: Seattle | Country: America"
@@ -744,7 +763,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=47.449,-122.309306" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@47.449,-122.309306,120.43102441a,3800.13721421d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -753,7 +772,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=36.38,128.124" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@36.38,128.124,148.21105401a,3800.14745579d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -762,7 +781,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=1.350189,103.994433" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@1.350189,103.994433,4.91186296a,3800.138315d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -771,7 +790,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=1.350189,103.994433" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@1.350189,103.994433,4.91186296a,3800.138315d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -780,7 +799,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=42.703,23.306" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@42.703,23.306,542.61590445a,3800.14273171d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -789,16 +808,16 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=38.629,-90.197" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@38.63130347,-90.19864091,143.1594167a,3800.132626d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
-    label: "POP: BMA16 | City: Stockholm | Country: Sweden"
+    label: "POP: BMA16 (METRO:ESSB127) | City: Stockholm | Country: Sweden"
     vars:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=59.354372,17.94165" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@59.354372,17.94165,6.51114604a,3800.10138546d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -807,7 +826,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=-33.946111,151.177222" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@-33.946111,151.177222,6.23589655a,3800.13171572d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -816,16 +835,16 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=-33.919,151.189" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@-33.9190004,151.18899983,6.57330044a,3800.09287524d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
-    label: "POP: NRT (Metrl:RJTF770) | City: Tokyo | Country: Japan"
+    label: "POP: NRT (Metrl:RJTF770,RJTT790) | City: Tokyo | Country: Japan"
     replace: "{{output}}"
     vars:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=35.617,139.748" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@35.617,139.748,1.71617437a,3800.14978703d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -834,7 +853,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=35.617,139.748" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@35.617,139.748,1.71617437a,3800.14978703d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -843,7 +862,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=43.677223,-79.630556" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@43.677223,-79.630556,170.25196969a,3800.14621666d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -852,7 +871,16 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=49.1967,-123.1815" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@49.1967,-123.1815,1.43527765a,3800.11171554d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
+
+  - trigger: ":pop"
+    replace: "{{output}}"
+    label: "POP: VNS444 | City: Varanasi | Country: India"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: 'echo "https://earth.google.com/web/@24.652,84.32,155.02311914a,3800.13102132d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -861,7 +889,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=48.269,16.41" | pbcopy'
+          cmd: 'echo "hhttps://earth.google.com/web/@48.269,16.41,159.22224715a,3800.12794722d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
 
   - trigger: ":pop"
     replace: "{{output}}"
@@ -870,4 +898,4 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'echo "https://www.google.com/maps/search/?api=1&query=-41.327221,174.805278" | pbcopy'
+          cmd: 'echo "https://earth.google.com/web/@-41.327221,174.805278,4.76396957a,3800.13600283d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExTXc3djRxV0NxOGlyYTM4T2VEV3g4SWQ0bXIyeHc4WXUgAToDCgEwQgIIAEoICKyiza8GEAE?authuser=0" | pbcopy'
